@@ -10,14 +10,6 @@ const molecula2 = () => {
             <div className="m2Agenda">
                 Agenda/Topic
             </div>
-            
-            <div className="m2Saas">
-                SAAS-0000
-            </div>
-
-            <div className='m2Logo'>
-                <span className="logo">◆</span>
-            </div>
     </div>
   )
 }
