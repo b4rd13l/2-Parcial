@@ -23,6 +23,11 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .molecula1 {
@@ -45,17 +50,14 @@ body {
 .molecula2 {
   display: flex;
   align-items: center;
-  background-color: #9370DB;
-  color: white;
-  padding: 12px 16px;
-  height: 56px;
 }
 
 .m2NumeroCirculo {
   width: 32px;
   height: 32px;
-  background-color: white;
-  color: #9370DB;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -66,7 +68,6 @@ body {
 }
 
 .m2Agenda {
-  flex-grow: 1;
   font-size: 18px;
   font-weight: 500;
 }
@@ -74,22 +75,15 @@ body {
 .molecula3 {
   display: flex;
   align-items: center;
-  background-color: #9370DB;
-  color: white;
-  padding: 12px 16px;
-  height: 56px;
 }
 
 .m3Saas {
-  display: flex;
-  align-items: center;
   font-size: 16px;
 }
 
 .m3Logo {
   display: flex;
   align-items: center;
-  font-size: 16px;
 }
 
 .logo {
@@ -111,4 +105,28 @@ body {
 
 .m4Fecha {
   color: #888;
+}
+
+.organismo1 {
+  width: 100%;
+  max-width: 364px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #9370DB;
+  color: white;
+  padding: 12px 16px;
+  height: 56px;
+  border-radius: 10px 10px 0 0;
+}
+
+.o1Descripcion {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.o1Linea {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 16px 0;
 }
