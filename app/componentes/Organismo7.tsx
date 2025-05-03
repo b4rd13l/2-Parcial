@@ -2,13 +2,13 @@ import React from 'react'
 import Molecula2 from './Molecula2'
 import Molecula3 from './Molecula3'
 
-const Organismo1 = () => {
+const Organismo7 = () => {
   return (
-    <div className='organismo1'>
+    <div className='organismo7'>
         <Molecula2/>
         <Molecula3/>
     </div>
   )
 }
 
-export default Organismo1
+export default Organismo7

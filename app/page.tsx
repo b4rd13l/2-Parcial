@@ -1,10 +1,10 @@
 import Image from "next/image";
-import Organismo1 from "./componentes/Organismo1";
+import Template from "./componentes/Template";
 
 export default function Home() {
   return (
     <>
-    <Organismo1/>
+    <Template/>
     </>
   );
 }
