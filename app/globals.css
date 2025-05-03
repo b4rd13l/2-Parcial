@@ -50,11 +50,12 @@ body {
 .molecula2 {
   display: flex;
   align-items: center;
+  margin-bottom: ;
 }
 
 .m2NumeroCirculo {
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 20px;
   border: 2px solid white;
   background-color: transparent;
   color: white;
@@ -64,12 +65,12 @@ body {
   justify-content: center;
   font-weight: bold;
   margin-right: 12px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .m2Agenda {
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 12px;
+  font-weight: 5px;
 }
 
 .molecula3 {
@@ -78,7 +79,7 @@ body {
 }
 
 .m3Saas {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .m3Logo {
@@ -88,7 +89,7 @@ body {
 
 .logo {
   margin-left: 8px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .molecula4 {
@@ -118,6 +119,7 @@ body {
   padding: 8px 16px;
   height: 56px;
   border-radius: 10px 10px 0 0;
+  align-items: center;
 }
 
 .organismo2 {
@@ -127,6 +129,7 @@ body {
   border: 1px solid #e0e0e0;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: #BDBDBD;
 }
 
 .card-body {
@@ -165,6 +168,7 @@ body {
   padding: 12px 16px;
   height: 56px;
   border-radius: 10px 10px 0 0;
+  align-items: center;
 }
 
 .organismo7 {
@@ -178,6 +182,7 @@ body {
   padding: 12px 16px;
   height: 56px;
   border-radius: 10px 10px 0 0;
+  align-items: center;
 }
 
 .template {
